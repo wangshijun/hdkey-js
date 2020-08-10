@@ -11,7 +11,7 @@ A JavaScript component for [BIP32](https://github.com/bitcoin/bips/blob/master/b
 Installation
 ------------
 
-    npm i --save hdkey
+    npm i --save @wangshijun/hdkey
 
 
 Usage
@@ -20,7 +20,7 @@ Usage
 **example:**
 
 ```js
-var HDKey = require('hdkey')
+var HDKey = require('@wangshijun/hdkey')
 var seed = 'a0c42a9c3ac6abf2ba6a9946ae83af18f51bf1c9fa7dacc4c92513cc4dd015834341c775dcd4c0fac73547c5662d81a9e9361a0aac604a73a321bd9103bce8af'
 var hdkey = HDKey.fromMasterSeed(Buffer.from(seed, 'hex'))
 console.log(hdkey.privateExtendedKey)
