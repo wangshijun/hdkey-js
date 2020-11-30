@@ -43,6 +43,7 @@
   },
   "scripts": {
     "lint": "standard",
+    "lint:fix": "standard --fix",
     "browser-test": "mochify --wd -R spec",
     "test": "standard && mocha",
     "unit": "mocha",
